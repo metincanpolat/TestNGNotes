@@ -1,0 +1,4 @@
+pause incele
+
+* Bir teste dependency on eklediğimiz zaman ve çalıştırdığımız zaman önce dependency yaptığımız metod çalışır.
+    Ama o metodun da bir dependency si varsa o çalışmaz. o zaman prioraty eklememiz gerekir.

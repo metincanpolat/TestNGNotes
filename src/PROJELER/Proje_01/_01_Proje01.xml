@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="test1">
+        <parameter name="wordToSearchFor" value="Adobe Photoshop CS4"></parameter>
+        <classes>
+            <class name="PROJELER.Proje_01.Proje01_nopcommerce"></class>
+        </classes>
+    </test>
+
+</suite>

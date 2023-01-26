@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"> <!--Tüm testleri kapsayan bölüm-->
+    <test name="test1">
+
+        <groups>
+            <run>
+                <include name="SmokeTest"></include>
+            </run>
+        </groups>
+
+        <classes> <!--çalışacak class ların yazıldığı bölüm-->
+            <class name="Gun04._01_Groups"></class>
+            <class name="Gun02._02_ValidateMenu"></class>
+        </classes>
+
+    </test>
+</suite>
